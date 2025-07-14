@@ -111,7 +111,7 @@ async def generate_origin_pdf(data: FormData):
     c.drawString(140, 235, data.invoice_number)
     c.drawString(130, 220, data.manufacturer)
     c.drawString(130, 200, data.nationality)
-    c.drawString(470, 160, data.total_quantity) 
+    c.drawString(430, 160, data.total_quantity) 
     c.drawString(100, 40,  data.date)
     c.drawString(100, 25, data.certification_place)
     c.drawString(200, 50, data.exporter_signature)
